@@ -5,7 +5,7 @@ virtualenv -p "C:\Users\XUAN TRONG\AppData\Local\Programs\Python\Python36\python
 set FLASK_APP=flasky.py
 set FLASK_DEBUG=1
 set MAIL_USERNAME=trongga9a@gmail.com
-set MAIL_PASSWORD=trongga2k
+set MAIL_PASSWORD=01263535153Trong
 set FLASKY_ADMIN=trongga9a@gmail.com
 flask db upgrade
 flask db migrate
@@ -13,8 +13,8 @@ flask shell
 Role.insert_roles()
 Role.query.all()
 from app import fake
-fake.users(100)
-fake.posts(100)
+fake.users(5)
+fake.posts(5)
 
 crtl + Z => enter
 

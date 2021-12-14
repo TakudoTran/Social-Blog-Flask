@@ -1,0 +1,260 @@
+
+body{
+  background: rgb(230, 230, 230);
+}
+.main-container{
+  padding-right: 300px;
+  padding-left: 300px;
+}
+/* nav */
+.my-navbar{
+  border-radius: 0;
+  background-color: rgb(71, 172, 255);
+  padding: 10px;
+}
+.navbar-header a.navbar-brand{
+  font-size: 300%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  font-size: medium;
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: black;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+  background-color: rgb(71, 172, 255);
+}
+.nav>li>a>img {
+  border-radius: 50%;
+  width: 30px;
+}
+/* end nav */
+/* page header */
+.page-header{
+  background-color: rgb(71, 172, 255);
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+/* end page header */
+/* hello */
+.page-header h1.hello{
+  color: #ffffff;
+  display: inline-flex;
+}
+.page-header h1.user-name{
+  margin-left: 15px;
+  color: #050000;
+  display: inline-flex;
+  font-style: bold;
+  font-weight: 600;
+}
+/* end hello */
+
+/* write post */
+.form{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea.form-control {
+  min-height: 100px;
+  display: flexbox;
+  border-radius:10px;
+}
+div.flask-pagedown-preview {
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #e0e0e0;
+  padding: 5px;
+  min-height: 50px;
+}
+/* end write post */
+
+.profile-thumbnail {
+  position: absolute;
+}
+.profile-header {
+  min-height: 260px;
+  margin-left: 280px;
+}
+div.post-tabs {
+  margin-top: 16px;
+}
+
+/* posts */
+.post-date{
+  float: right;
+}
+.post img{
+  border-radius: 50%;
+}
+.post .post-author a{
+  margin-left: 5px;
+}
+.post .post-date{
+  font-size: small;
+}
+.post .post-body{
+  margin-top: 20px;
+  padding:10px;
+}
+.post-body h1 {
+  font-size: 140%;
+}
+.post-body h2 {
+  font-size: 130%;
+}
+.post-body h3 {
+  font-size: 120%;
+}
+.post-footer a:hover{
+  text-decoration: none;
+}
+div.post-footer {
+  text-align: left;
+  margin-top: 10px;
+}
+div.post-footer a{
+  margin-left: 10px;
+}
+div.post-footer a.button-like  {
+  padding:5px;
+  background-color: rgb(76, 73, 250);
+  border-radius: 5px;
+  color: white;
+}
+div.post-footer a.button-comment  {
+  padding:5px;
+  background-color: rgb(171, 171, 187);
+  border-radius: 5px;
+  color: white;
+}
+div.post-footer a.button-edit-danger  {
+  padding:5px;
+  background-color: rgb(226, 36, 36);
+  border-radius: 5px;
+  color: white;
+}
+div.post-footer a.button-edit  {
+  padding:5px;
+  background-color: turquoise;
+  border-radius: 5px;
+  color: white;
+}
+ul.posts {
+  list-style-type: none;
+  padding: 0px;
+  margin: 16px 0px 0px 0px;
+  border-top: 1px solid #e0e0e0;
+}
+div.post-tabs ul.posts {
+  margin: 0px;
+  border-top: none;
+}
+
+ul.posts li.post {
+  padding: 8px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+ul.posts li.post:hover {
+  background-color: #f0f0f0;
+}
+
+
+div.post-author {
+  font-weight: bold;
+}
+div.post-thumbnail {
+  position: absolute;
+}
+div.post-content {
+  margin-left: 48px;
+  min-height: 48px;
+}
+
+ul.comments {
+  list-style-type: none;
+  padding: 0px;
+  margin: 16px 0px 0px 0px;
+}
+ul.comments li.comment {
+  margin-left: 32px;
+  padding: 8px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+ul.comments li.comment:nth-child(1) {
+  border-top: 1px solid #e0e0e0;
+}
+ul.comments li.comment:hover {
+  background-color: #f0f0f0;
+}
+div.comment-date {
+  float: right;
+}
+div.comment-author {
+  font-weight: bold;
+}
+div.comment-thumbnail {
+  position: absolute;
+}
+div.comment-content {
+  margin-left: 48px;
+  min-height: 48px;
+}
+div.comment-form {
+  margin: 16px 0px 16px 32px;
+}
+div.pagination {
+  width: 100%;
+  text-align: right;
+  padding-left: 0px;
+  margin: 0px;
+}
+div.flask-pagedown-preview {
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #e0e0e0;
+  padding: 4px;
+}
+div.flask-pagedown-preview h1 {
+  font-size: 140%;
+}
+div.flask-pagedown-preview h2 {
+  font-size: 130%;
+}
+div.flask-pagedown-preview h3 {
+  font-size: 120%;
+}
+
+.table.followers tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+
+/* profile */
+.img-rounded{
+  border-radius: 50% ;
+  border: 1px solid rgb(39, 39, 39);
+
+}
+.profile-header h1,p{
+  color: white;
+}
+.profile-header a{
+  color: white;
+}
+.profile-header a.btn-default{
+  color: rgb(0, 0, 0);
+}
+.btn-default {
+  color: #fff;
+  background-color: #4c49fa;
+  border-color: #ccc;
+}
