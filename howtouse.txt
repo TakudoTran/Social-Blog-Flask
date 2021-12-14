@@ -6,9 +6,9 @@ pip install -r requirements.txt
 
 set FLASK_APP=flasky.py
 set FLASK_DEBUG=1
-set MAIL_USERNAME=trongga9a@gmail.com
-set MAIL_PASSWORD=01263535153Trong
-set FLASKY_ADMIN=trongga9a@gmail.com
+set MAIL_USERNAME=linhphanquang0@gmail.com
+set MAIL_PASSWORD=linh12345678
+set FLASKY_ADMIN=linhphanquang0@gmail.com
 flask db upgrade
 flask db migrate
 flask shell
