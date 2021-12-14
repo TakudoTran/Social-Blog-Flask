@@ -1,6 +1,8 @@
 pip install virtualenv
-py -m venv venv
-virtualenv -p "C:\Users\XUAN TRONG\AppData\Local\Programs\Python\Python36\python.exe" venv
+python -m venv venv
+virtualenv -p python venv
+source venv/bin/activate
+pip install -r requirements.txt
 
 set FLASK_APP=flasky.py
 set FLASK_DEBUG=1
