@@ -10,6 +10,7 @@ import hashlib
 import bleach
 from markdown import markdown
 
+
 class Post(db.Model):
     __tablename__ = 'posts'
     id = db.Column(db.Integer, primary_key=True)

@@ -3,8 +3,8 @@ body{
   background: rgb(230, 230, 230);
 }
 .main-container{
-  padding-right: 300px;
-  padding-left: 300px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 /* nav */
 .my-navbar{
@@ -68,6 +68,7 @@ body{
   background-color: white;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: #a1a1a1 0 10px 20px -10px;
 }
 textarea.form-control {
   min-height: 100px;
@@ -82,9 +83,10 @@ div.flask-pagedown-preview {
 }
 /* end write post */
 
-.profile-thumbnail {
-  position: absolute;
+img.profile-thumbnail {
+  position:absolute;
 }
+
 .profile-header {
   min-height: 260px;
   margin-left: 280px;
@@ -106,6 +108,10 @@ div.post-tabs {
 .post .post-date{
   font-size: small;
 }
+.post .post-body > p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: medium;
+}
 .post .post-body{
   margin-top: 20px;
   padding:10px;
@@ -125,6 +131,7 @@ div.post-tabs {
 div.post-footer {
   text-align: left;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 div.post-footer a{
   margin-left: 10px;
@@ -167,8 +174,9 @@ div.post-tabs ul.posts {
 ul.posts li.post {
   padding: 8px;
   background-color: white;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: 10px;
+  box-shadow: #a1a1a1 0 10px 20px -10px;
 }
 ul.posts li.post:hover {
   background-color: #f0f0f0;
@@ -210,7 +218,7 @@ div.comment-date {
 div.comment-author {
   font-weight: bold;
 }
-div.comment-thumbnail {
+div.comment-thumbnail > img{
   position: absolute;
 }
 div.comment-content {

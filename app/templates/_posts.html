@@ -15,14 +15,14 @@
         <a href="{{ url_for('.user', username=post.author.username) }}">{{ post.author.username }}</a>
       </div>
       <div class="post-body">
-        {% if post.body_html %} {{ post.body_html | safe }} {% else %} {{ post.body }} {% endif %}
+        <p>{% if post.body_html %} {{ post.body_html | safe }} {% else %} {{ post.body }} {% endif %}</p>
       </div>
       <div class="post-footer">
         <a class="button-like" href="#"><i class="glyphicon glyphicon-thumbs-up"></i>
-          <span >Likes</span>
+          <span >{{ post.comments.count()*9+5 }} Likes</span>
         </a>
         <a class="button-comment" href="{{ url_for('.post', id=post.id) }}#comments"><i class="glyphicon glyphicon-comment"></i>
-          <span >Comments</span>
+          <span >{{ post.comments.count() }} Comments</span>
         </a>
         {% if current_user == post.author %}
         <a class="button-edit" href="{{ url_for('.edit', id=post.id) }}"><i class="glyphicon glyphicon-pencil"></i>

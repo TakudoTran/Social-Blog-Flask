@@ -50,7 +50,7 @@ class EditProfileAdminForm(FlaskForm):
             raise ValidationError('Username already in use.')
 
 class PostForm(FlaskForm):
-    body = PageDownField("What's on your mind?", validators=[DataRequired()])
+    body = PageDownField("What's on your mind?",render_kw=None, validators=[DataRequired()])
     submit = SubmitField('Submit')
 
 class CommentForm(FlaskForm):
